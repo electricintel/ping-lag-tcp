@@ -33,7 +33,7 @@ On left menu
 Left click on Microsoft Folder
 New Key (New Folder #...)
 Right Click (New Folder #...) Rename MSMQ)
-Righ Menu
+Right Menu
 Left click New
 DWord32 bit
 TCPNoDelay
