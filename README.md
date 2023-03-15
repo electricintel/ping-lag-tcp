@@ -5,6 +5,11 @@ For Windows
 
 Regedit
 
+Backup Registry
+File
+Export 
+name it
+
 Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile
 hkey_local_machine
 Software
@@ -17,22 +22,28 @@ Network ThrottlingINdex
 FFFFFFFF
 Hexadecimal
 
-Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSMQ\Parameters
+
+Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSMQ
 HKEY_LOCAL_MACHINE
 Software
 Microsoft
 MSMQ
 (if MSMQ does not exist:
-On right menu
-Left click + New Key
-Rename MSMQ)
+On left menu
+Left click on Microsoft Folder
+New Key (New Folder #...)
+Right Click (New Folder #...) Rename MSMQ)
+Righ Menu
 Left click New
 DWord32 bit
 TCPNoDelay
 Value to 1
+
+Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSMQ\Parameters
+(if Parameters does not exist:
 Left Click MSMQ
-New
-Parameters
+New Key (New Folder #...)
+Right Click (New Folder #...) Rename Parameters)
 New on right menu
 Dword 32
 TCPNoDelay
@@ -58,10 +69,7 @@ Dword 32bit
 TCPNoDelay
 Set value to 1
 
-Backup Registry
-FIle
-Export 
-name it
+
 
 
 Original
